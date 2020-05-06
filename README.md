@@ -24,3 +24,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+
+
+### git 本地仓库和远程的合并 
+
+问题: fatal: refusing to merge unrelated histories
+
+解决：git pull origin master --allow-unrelated-histories
